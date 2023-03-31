@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Login form</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="videos/myvideo.mp4" type="video/mp4" />
+    </video>
+    <div class="container">
+      <div class="form1">
+        <h3 style="color: white">Create Gmail Account</h3>
+        <form id="login-form">
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="text"
+            id="contactNumber"
+            name="contactNumber"
+            placeholder="Contact Number"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter mail id"
+            required
+          />
+        </form>
+        <div class="form-buttons">
+          <input type="submit" value="Submit" form="login-form" />
+          <input type="reset" value="Reset" form="login-form" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
